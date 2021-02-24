@@ -13,7 +13,7 @@ To run the tests, follow the below steps
 ```bash
  /mini-project-tests
  ```
-* Run the below command in your terminal.
+* Run the below command in your terminal
 * NB: you may need to substitute `python` and `pytest` depending on your local setup
 ```py
 python -m pytest tests/tests.py
