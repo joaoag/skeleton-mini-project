@@ -1,0 +1,7 @@
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/Users/joaoabbott-gribben/.pyenv/shims/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "/Users/joaoabbott-gribben/.local/lib/python3.9/site-packages/pylint"
+}
