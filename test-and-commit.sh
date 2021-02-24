@@ -8,7 +8,7 @@ then
 	echo -e "Not in project directory.Changing directory to ${project_dir}\n"
 	cd ${project_dir}
 fi
-if python3 -m pytest tests/tests.py; 
+if python3 -m pytest tests/tests.py -v; 
 then
 	git commit -am "${1}"
 	git push
