@@ -11,4 +11,5 @@ fi
 if python3 -m pytest tests/tests.py; 
 then
 	git commit -am "${1}"
+	git push
 fi
