@@ -1,6 +1,8 @@
 #!/bin/bash
 set -eu
 
+read message
+
 project_dir="$HOME/projects/generation/mini-project-tests"
 
 if [[ $(pwd) != ${project_dir} ]];
@@ -10,6 +12,7 @@ then
 fi
 if python3 -m pytest tests/tests.py -v; 
 then
-	git commit -am "${1}"
+	echo $message
+	git commit -am "$message"
 	git push
 fi
